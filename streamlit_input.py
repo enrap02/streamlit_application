@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Get the current credentials
-session = get_active_session()
+# session = get_active_session()
 st.write(session)
 st.divider()
 
