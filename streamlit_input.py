@@ -1,10 +1,5 @@
 import streamlit as st
 
-# Get the current credentials
-# session = get_active_session()
-st.write(session)
-st.divider()
-
 # Get query params from URL
 query_params = st.experimental_get_query_params()
 # st.write(query_params)
